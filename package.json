@@ -1,0 +1,33 @@
+{
+  "name": "homebridge-light-sensor",
+  "version": "1.0.4",
+  "description": "A homebridge adapter for using a PIR sensor with Apple's Homekit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersmic/homebridge-light-sensor.git"
+  },
+  "engines": {
+    "homebridge": ">=0.2.5",
+    "node": ">=0.12.0"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "light",
+    "sensor"
+  ],
+  "author": "mich@elsen.dk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andersmic/homebridge-light-sensor/issues"
+  },
+  "homepage": "https://github.com/andersmic/homebridge-light-sensor#readme",
+  "preferGlobal": true,
+  "dependencies": {
+    "rpi-gpio": "^1.0.0"
+  }
+}
